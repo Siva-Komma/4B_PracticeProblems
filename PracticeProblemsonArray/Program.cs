@@ -11,6 +11,7 @@ namespace PracticeProblemsonArray
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome message for array's practice problems");
+            ConutDuplicatevalues.arrayInfo();
             Console.ReadLine();
         }
     }
