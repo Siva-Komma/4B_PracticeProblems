@@ -15,6 +15,7 @@ namespace PracticeProblemsonArray
             UniqueueValues.UniqueueInfo();
             RectangleStarPattern.Startrectangle();
             Matrics.SumofMatric();
+            ReverseString.Reverse("Hello");
             Console.ReadLine();
         }
     }
