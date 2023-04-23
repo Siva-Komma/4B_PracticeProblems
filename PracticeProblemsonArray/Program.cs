@@ -14,6 +14,7 @@ namespace PracticeProblemsonArray
             ConutDuplicatevalues.arrayInfo();
             UniqueueValues.UniqueueInfo();
             RectangleStarPattern.Startrectangle();
+            Matrics.SumofMatric();
             Console.ReadLine();
         }
     }
