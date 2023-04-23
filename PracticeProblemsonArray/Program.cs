@@ -11,8 +11,9 @@ namespace PracticeProblemsonArray
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome message for array's practice problems");
-            //ConutDuplicatevalues.arrayInfo();
+            ConutDuplicatevalues.arrayInfo();
             UniqueueValues.UniqueueInfo();
+            RectangleStarPattern.Startrectangle();
             Console.ReadLine();
         }
     }

@@ -46,6 +46,7 @@
     <Compile Include="ConutDuplicatevalues.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RectangleStarPattern.cs" />
     <Compile Include="UniqueueValues.cs" />
   </ItemGroup>
   <ItemGroup>
