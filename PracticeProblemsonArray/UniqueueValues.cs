@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace PracticeProblemsonArray
 {
-    class ConutDuplicatevalues
+    class UniqueueValues
     {
-        public static void arrayInfo()
+        public static void UniqueueInfo()
         {
             int[] a = new int[5];
             int i, j, count = 0;
@@ -18,29 +18,31 @@ namespace PracticeProblemsonArray
                 Console.WriteLine("Enter Elements");
                 a[i] = Convert.ToInt32(Console.ReadLine());
             }
-            Console.WriteLine("array Elements");
+            Console.WriteLine("\narray Elements");
             for (i = 0; i < a.Length; i++)
             {
-                Console.WriteLine("Enter Elements" + a[i]);
+                Console.WriteLine("\nEnter Elements" + a[i]);
             }
             for (i = 0; i < a.Length; i++)
             {
-                for (j = i + 1; j < a.Length; j++)
+                for (j = i+1; j < a.Length; j++)
                 {
                     if (a[i] == a[j])
                     {
-                        count++;
-                        Console.WriteLine(a[i]);
+                        //count++;
+                        Console.WriteLine("\n duplicatevalues"+a[i]);
                         break;
                     }
                     else
                     {
-                        Console.WriteLine("unique"+a[i]);
+                        count++;
+                        Console.WriteLine("\nUnique values"+a[i]);
                         break;
                     }
                 }
             }
-            Console.WriteLine("Number of Elements repeated" + count);
+            Console.WriteLine("\nNumber of Elements uniqueue" + count);
         }
     }
 }
+
