@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,11 +12,13 @@ namespace PracticeProblemsonArray
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome message for array's practice problems");
-            ConutDuplicatevalues.arrayInfo();
-            UniqueueValues.UniqueueInfo();
-            RectangleStarPattern.Startrectangle();
-            Matrics.SumofMatric();
-            ReverseString.Reverse("Hello");
+            //ConutDuplicatevalues.arrayInfo();
+            //UniqueueValues.UniqueueInfo();
+            //RectangleStarPattern.Startrectangle();
+            //Matrics.SumofMatric();
+            //ReverseString.Reverse("Hello");
+            FrequencyofArray.Frequency();
+
             Console.ReadLine();
         }
     }

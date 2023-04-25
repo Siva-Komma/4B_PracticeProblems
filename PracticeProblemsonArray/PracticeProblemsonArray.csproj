@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConutDuplicatevalues.cs" />
+    <Compile Include="FrequencyofArray.cs" />
     <Compile Include="Matrics.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
